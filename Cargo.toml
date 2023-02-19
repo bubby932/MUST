@@ -1,7 +1,7 @@
 # Cargo.toml
 
 [package]
-name = "must"         # or any other name
+name = "must"
 version = "0.1.0"
 
 [build-dependencies]
