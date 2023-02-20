@@ -1,7 +1,9 @@
 pub mod serial;
-pub mod vga;
 
 /// TODO
-pub trait CharacterDevice {}
+pub trait CharacterDevice {
+	fn read(&self) -> u8;
+	fn write(&mut self, value: u8);
+}
 /// TODO
 pub trait BlockDevice {}
